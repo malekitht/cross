@@ -24,13 +24,13 @@ namespace Lab_1
                 Console.WriteLine(ex.Message);
             }
             Double a = x/5;
-            Console.WriteLine(Factorial(a + k) / (Factorial(a) * Factorial(k)));
-
+            Double result = (Factorial(a + k) / (Factorial(a) * Factorial(k)));
+            File.WriteAllTextAsync("OUTPUT.TXT", Convert.ToString(result));
         }
 
         public static List <int> ReadNumbers()
         {
-            using (StreamReader sr = new StreamReader("file.txt"))
+            using (StreamReader sr = new StreamReader("INPUT.TXT"))
             {
                 List<int> a = new List<int>();
                 string numbers = sr.ReadToEnd();
