@@ -1,0 +1,5 @@
+C:\Users\malekith\Documents\cross\cross\lab4\bin\Debug\netcoreapp6.0\publish\lab4.exe
+C:\Users\malekith\Documents\cross\cross\lab4\bin\Debug\netcoreapp6.0\publish\lab4.dll
+C:\Users\malekith\Documents\cross\cross\lab4\bin\Debug\netcoreapp6.0\publish\lab4.deps.json
+C:\Users\malekith\Documents\cross\cross\lab4\bin\Debug\netcoreapp6.0\publish\lab4.runtimeconfig.json
+C:\Users\malekith\Documents\cross\cross\lab4\bin\Debug\netcoreapp6.0\publish\lab4.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>krossplatform4</id>
+    <version>1.0.0</version>
+    <authors>lab4</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="C:\Users\malekith\Documents\cross\cross\lab4\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\malekith\Documents\cross\cross\lab4\bin\Release\netcoreapp6.0\publish\lab4.dll" target="tools\net6.0\any\lab4.dll" />
+    <file src="C:\Users\malekith\Documents\cross\cross\lab4\bin\Release\netcoreapp6.0\publish\lab4.deps.json" target="tools\net6.0\any\lab4.deps.json" />
+    <file src="C:\Users\malekith\Documents\cross\cross\lab4\bin\Release\netcoreapp6.0\publish\lab4.runtimeconfig.json" target="tools\net6.0\any\lab4.runtimeconfig.json" />
+    <file src="C:\Users\malekith\Documents\cross\cross\lab4\bin\Release\netcoreapp6.0\publish\lab4.pdb" target="tools\net6.0\any\lab4.pdb" />
+  </files>
+</package>
