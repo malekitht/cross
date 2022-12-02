@@ -33,8 +33,15 @@ namespace Lab_1
             using (StreamReader sr = new StreamReader("INPUT.TXT"))
             {
                 List<int> a = new List<int>();
-                string numbers = sr.ReadToEnd();
-                foreach(var number in numbers.Split())
+                var nn = File.ReadLines("INPUT.TXT").Count();
+                string numbers = "123";// sr.ReadToEnd();
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    //list.Add(line);
+                    Console.WriteLine(line);
+                }
+                foreach (var number in numbers.Split())
                 {
                     a.Add(Convert.ToInt32(number));
                 }
